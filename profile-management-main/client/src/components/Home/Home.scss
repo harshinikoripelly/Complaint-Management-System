@@ -1,0 +1,67 @@
+@import './../../scss/_variable.scss';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.heading{
+    font-size:26px;
+    margin-left: 18px;
+    margin-top:65px;
+    margin-bottom: 5px;
+    padding:10px;
+}
+.rule2{
+    border:2px solid black;
+    width:350px;
+    margin-left: 3px;
+    margin-top: 4px;
+    margin-right:0;
+}
+.list-main{
+    margin-left:48px;
+    font-size:18px;
+    padding:15px;
+}
+.list-item{
+    margin-top:18px;
+    margin-bottom:7px;
+}
+.list-item1{
+    margin-top:15px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-right:100px;
+    // gap: 20px;
+    // justify-content: center;
+
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+.image1{
+    margin-top: 100px;
+    height:250px;
+    width:300px;
+}
+.image2{
+    height:10px;
+    width:10px;
+    margin: 0;
+}
+.home-main{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.heading2{
+     margin-top: 30px;
+     font-size: 32px;
+     text-align: center;
+}
+

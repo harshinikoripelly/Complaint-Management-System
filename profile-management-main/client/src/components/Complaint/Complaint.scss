@@ -1,0 +1,150 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.complaint {
+    display: flex;
+    flex-direction: row;
+    // margin-bottom: 100px;
+}
+.complaint-main{
+    width: 70%;
+}
+.complaint-form-body2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+    // padding-top:0px;
+    .complaint-form-box2{
+        min-width: 800px;
+        background-color: #fff;
+        box-shadow: 2px 6px 12px #00000025;
+        padding: 20px;
+        .complaint-form-header2{
+            padding: 10px;
+            h3{
+                font-size: 20px;
+                font-weight: 500;
+                &::after{
+                    content: '';
+                    width: 60px;
+                    height: 3px;
+                    display: block;
+                    background-color: #273239;
+                }
+            }
+        }
+        .complaint-form-inner-body2{
+              .dropbtn {
+                background-color: #f8fcfa;
+                color: hsl(0, 2%, 12%);
+                padding: 16px;
+                font-size: 16px;
+                width:300px;
+                height:25px;
+                border:2px solid;
+                border-radius:6px;
+                margin-top:60px;
+
+              }
+              
+              .dropdownmain{
+                display: flex;
+                flex-direction: column;
+                width:500px;
+                // margin-left:40px;
+            
+              }
+              .dropdownbox{
+                height: 45px;
+                width:94%;
+                border-radius: 5px;
+                font-size: 16px;
+                border:2px solid black;
+                margin-left:35px;
+                
+              }
+
+              .items2{
+                color:#273239;
+              }
+              .items{
+                color:black;
+              }
+            .box-name{
+                width:200px;
+            }
+            .box-item{
+                width:100%;
+            }
+            .input-group{
+                position:relative;
+                margin-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+                input[type="checkbox"]{
+                    width: auto !important;
+                    accent-color: #273239;
+                }
+                .input-type {
+                    display: flex;
+                    flex-direction: row;
+                    padding:10px;
+                    // margin-left:50px;
+                }
+                input{
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 4px;
+                    border: 2px solid #273239;
+                    margin-left:50px;
+                    
+                }
+                .btn{
+                    background-color: #273239;
+                    color: white;
+                    padding: 12px 27px;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    border: none;
+                    outline: none;
+                    width: 100%;
+                    transition: all 0.5s linear;
+                    &:hover{
+                        background-color: #273239e6;
+                    }
+                    
+                }
+                .img-padding{
+                    margin-left:200px;
+                }
+                label{
+                    transition: all 0.25s linear;
+                    position: absolute;
+                    pointer-events: none;
+                    font-size: 16px;
+                    top: 12px;
+                    left: 16px;
+                    color: #777;
+                    &.checkbox{
+                        display: inline;
+                        all: unset;
+                        text-transform: capitalize;
+                        padding: 0px 10px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:525px){
+    .form-body{
+        padding: 20px;
+        .form-box{
+            min-width: 100%;
+            &::before,&::after{
+                display: none;
+            }
+        }
+    }
+}
