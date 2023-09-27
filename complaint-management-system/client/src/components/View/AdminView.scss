@@ -1,0 +1,35 @@
+.adminview {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminview-form-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 585px;
+   
+    .adminview-form-box{
+        width: 800px;
+        background-color: #fff;
+        box-shadow: 2px 6px 12px #00000025;
+        min-height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .heading{
+            max-width: 230;
+            width: auto;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .data {
+            font-size: 18px;
+        }
+    }
+
+}

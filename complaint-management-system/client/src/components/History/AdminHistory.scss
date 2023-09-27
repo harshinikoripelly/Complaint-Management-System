@@ -1,0 +1,66 @@
+.admin-history {
+    display: flex;
+    flex-direction: row;
+
+}
+.adminhistory-form-body{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .sortby{
+        display: flex;
+        flex-direction: row;
+        min-width:700px;
+        justify-content: flex-end;
+    }
+
+   
+    .adminhistory-form-box{
+        min-width:700px;
+        background-color: #fff;
+        box-shadow: 2px 6px 12px #00000025;
+        height:auto; 
+        
+        .adminhistory-table{
+            width: 100%;
+            height:auto;
+            padding: 20px;
+        
+            .table1{
+                width: 140px;
+                padding-left: 35px;        
+            }
+            .table2{
+                width: 140px;
+                display: flex;
+                justify-content: center;
+            }
+            .table3{
+                width: 140px;
+                padding-left: 28px;
+            }
+            .table4{
+                width: 140px;
+                padding-left: 30px;
+            }
+            .table5{
+                width: 140px;
+                padding-left: 50px;
+            }
+        }
+        
+    }
+}
+
+
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+
